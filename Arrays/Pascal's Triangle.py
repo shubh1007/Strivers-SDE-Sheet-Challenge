@@ -1,3 +1,4 @@
+from typing import List
 def pascalTriangle(n : int) -> List[List[int]]:
     # Write your code here.
     res = [[1]]
