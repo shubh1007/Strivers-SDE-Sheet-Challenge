@@ -8,8 +8,4 @@ def pascalTriangle(n : int) -> List[List[int]]:
         for j in range(len(res[-1]) + 1):
             row.append(temp[j] + temp[j + 1])
         res.append(row)
-    # for i in res:
-    #     for j in i:
-    #         print(j, end = " ")
-    #     print()
     return res
