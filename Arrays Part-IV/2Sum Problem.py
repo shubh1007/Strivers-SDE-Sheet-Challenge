@@ -13,6 +13,3 @@ s = 4
 arr = {2, -6, 2, 5, 2}
 print(pairSum(arr, s))
 
-
-        
-            
